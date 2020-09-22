@@ -1,0 +1,22 @@
+.checkout {
+  display: flex;
+  /* align-items: center; */
+  background-color: white;
+}
+.checkout-left {
+  flex: 0.7;
+  border-right: 1px solid grey;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.checkout-left > h2 {
+  padding: 10px;
+  border-bottom: 1px solid #a09c9c;
+}
+.checkout-right {
+  flex: 0.3;
+}
+.checkout-emptytag {
+  margin-top: 10px;
+  margin-left: 10px;
+}

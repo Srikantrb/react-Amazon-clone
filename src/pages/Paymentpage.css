@@ -1,0 +1,50 @@
+.payment {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.payment > h2 {
+  /* align-items: center; */
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(234, 237, 237);
+  border-bottom: 1px solid lightgray;
+  font-weight: 600;
+}
+.payment > h2 a {
+  text-decoration: none;
+  /* color: black; */
+}
+.payment-section {
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgray;
+}
+.payment-sectiontitle {
+  flex: 0.2;
+}
+.payment-address,
+.payment-checkoutitems,
+.payment-pay {
+  flex: 0.8;
+}
+
+.payment-pay > form {
+  max-width: 350px;
+}
+.payment-total {
+  font-weight: 500;
+}
+.payment-buynowbtn {
+  background-color: orange;
+  color: #111;
+  border: 1px solid;
+  border-color: #a88734;
+  height: 20px;
+  width: 100%;
+  border-radius: 2px;
+}
+.payment-buynowbtn:hover {
+  cursor: pointer;
+}

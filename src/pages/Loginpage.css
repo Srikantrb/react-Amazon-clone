@@ -1,0 +1,72 @@
+.loginpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+}
+.loginpage-logo {
+  width: 250px;
+  object-fit: contain;
+  margin-bottom: 45px;
+  border-radius: 10px;
+}
+.loginpage > img:hover {
+  cursor: pointer;
+}
+.loginpage-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  padding: 20px;
+  width: 350px;
+  height: fit-content;
+}
+.loginpage-container > h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.loginpage-container > form > h5 {
+  font-size: 14px;
+  font-weight: 550;
+  margin-bottom: 5px;
+}
+.loginpage-container > form > input {
+  height: 25px;
+  width: 98%;
+  background-color: white;
+  margin-bottom: 8px;
+  border: 1px solid lightgrey;
+}
+.loginpage-container > form > button {
+  margin-top: 10px;
+  width: 100%;
+  height: 25px;
+  background-color: orange;
+  color: #111;
+  border: 1px solid;
+  border-color: #a88734;
+  border-radius: 2px;
+  min-height: 22px;
+}
+.loginpage-container > form > button:hover {
+  cursor: pointer;
+}
+.loginpage-container > p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.loginpage-container > button {
+  width: 100%;
+  height: 25px;
+  background-color: orange;
+  color: #111;
+  border: 1px solid;
+  border-color: #a88734;
+  border-radius: 2px;
+  min-height: 22px;
+}
+.loginpage-container > button:hover {
+  cursor: pointer;
+}
